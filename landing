@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>incluDates — Citas inclusivas, sin fronteras</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+<header><h1>incluDates</h1><p>Citas inclusivas, sin fronteras</p></header>
+<main><p>Descarga la app. Primera semana gratis.</p>
+<section class="screens"></section></main>
+<footer><a href="../privacy_es.md">Privacidad (ES)</a> · <a href="../privacy_en.md">Privacy (EN)</a></footer>
+<script>
+const imgs = ['s1.png','s2.png','s3.png','s4.png','s5.png','s6.png'];
+const grid = document.querySelector('.screens');
+imgs.forEach(n => { const img=document.createElement('img'); img.src='assets/'+n; img.alt='screenshot'; img.style.width='240px'; img.style.margin='6px'; grid.appendChild(img); });
+</script>
+</body></html>
